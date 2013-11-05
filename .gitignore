@@ -1,0 +1,9 @@
+.emacs.desktop
+.session
+.smex-items
+el-get/
+eshell/
+ac-comphist.dat
+auto-save-list/
+*~
+#*#
