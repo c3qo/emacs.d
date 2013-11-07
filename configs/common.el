@@ -111,6 +111,7 @@
     (progn
       (add-hook 'after-init-hook 'session-initialize)
       (load "desktop")
+      (setq desktop-path '("."))
       (desktop-save-mode))))
 
 ; smex
@@ -142,7 +143,7 @@
       (eval-after-load "color-theme"
                        '(progn
                           (color-theme-initialize)
-                          (load-theme 'color-theme-subtle-hacker t))))))
+                          (color-theme-subtle-hacker))))))
 (ansi-color-for-comint-mode-on)
 
 ;;auto-pair and highlight-parentheses

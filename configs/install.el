@@ -13,7 +13,7 @@
 
 (setq my-packages
   '(el-get
-     emacs-goodies-el
+;     emacs-goodies-el
      ace-jump-mode
      auto-complete
      yasnippet
