@@ -30,4 +30,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/el-get/ascope/")
 (require 'ascope)
-;(ascope-init)
+(global-set-key [?\M-*] 'ascope-pop-mark)
+(global-set-key [?\M-,] 'ascope-find-this-text-string)
+(global-set-key [?\M-.] 'ascope-find-this-symbol)

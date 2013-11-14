@@ -33,6 +33,11 @@
      idle-highlight-mode
      ascope
      sr-speedbar
+     rhtml-mode
+     yaml-mode
+     ruby-mode
+     inf-ruby
+     ruby-compilation
      smart-operator
      session))
 (el-get 'sync my-packages)
